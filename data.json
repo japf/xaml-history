@@ -1,16 +1,42 @@
 {
 	"timeline":
 	{
-		"headline":"The Main Timeline Headline Goes here",
+		"headline":"XAML history",
 		"type":"default",
-		"text":"<p>Intro body text goes here, some HTML is ok</p>",
+		"text":"<p>An history of 11 years of XAML at Microsoft from a .Net developer point of view</p>",
 		"date": [
 			{
-				"startDate":"2011,12,10",
-				"endDate":"2011,12,11",
-				"headline":"Headline Goes Here",
-				"text":"<p>Body text goes here, some HTML is OK</p>",
-				"tag":"This is Optional"
+				"startDate":"2003,04,28",
+				"headline":"WPF Development Starts !",
+				"text":"
+					The official development kickoff date of the WPF stack at Microsoft is not well known. It started as part of the Avalon development effort which started itself with Longhorn (remember that name?)...
+					<p>
+					However, using the Reference Source website, we can find comments in the source code indicating that very early work in the PresentationCore assembly started off early 2003. 
+					<p>
+					See for example: http://referencesource.microsoft.com/#PresentationCore/src/Core/CSharp/System/Windows/Media/Brush.cs where the creation date is 04/28/2003
+				",
+				"tag":"WPF"
+			},
+			{
+				"startDate":"2004,11,18",
+				"headline":"Avalon Community Technology Preview",
+				"text":"
+					Here is the official announcement:
+					<p>
+					<em>
+					Avalon is the new graphics display subsystem that we announced at PDC, which unified documents, graphics, media and user interfaces into a single platform. Using a new vector-based compositing engine, Avalon takes full advantage of modern graphics hardware and provides the capabilities for building rich, immersive applications with 2D and 3D capabilities. Avalon also introduces XAML, a markup language that maps XML markup to objects in the .NET Framework and is built to allow designers and developers to work together in the user interface development process.
+					Originally a Longhorn-only feature, the Avalon team has been working over the last couple of months to additionally support current releases of the Windows operating system. The fruits of that work are now visible in the form of this preview release, which runs on Windows XP Service Pack 2 and Windows Server 2003. You'll need .NET Framework 2.0 installed on your machine, and ideally a DirectX 9-class graphics adapter (although Avalon has a software fallback for older cards).
+					</em>
+					<p>
+					<a href='http://blogs.msdn.com/b/tims/archive/2004/11/18/265965.aspx'>source</a>
+				",
+				"tag":""
+			},
+			{
+				"startDate":"",
+				"headline":"",
+				"text":"",
+				"tag":""
 			}
 		],
 		"era": [
