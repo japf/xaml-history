@@ -2,11 +2,13 @@
 	"timeline":
 	{
 		"type":"default",
+		"headline":"An history of 11 years of XAML stacks from a .Net developer point of view",
+		"text": "Jeremy Alles, April 2014 - www.japf.fr - Feel free to contribute to this timeline by sending pull requests :-)",
 		"date": [
 			{
 				"startDate":"2003,04,28",
 				"headline":"WPF Development Starts !",
-				"text":"<p>The official development kickoff date of the WPF stack at Microsoft is not well known. It started as part of the Avalon development effort which started itself with Longhorn (remember that name?)...</p><p>However, using the <a href='http://referencesource.microsoft.com/'>Reference Source</a> website, we can find comments in the source code indicating that early work in the PresentationCore assembly started off early 2003. See for example the source code of the Brush type (<a href='http://referencesource.microsoft.com/#PresentationCore/src/Core/CSharp/System/Windows/Media/Brush.cs'>Brush.cs</a>) where the creation date is 04/28/2003...</p><p>You can also read this nice blog post by Chris Anderson about <a href='http://web.archive.org/web/20061019225317/http://blog.simplegeek.com/PermaLink.aspx/100aec62-3352-4c35-b471-f3f2fa5fac5a'>A brief history on XAML</a> (on webarchive).</p>",
+				"text":"<p>The official development kickoff date of the WPF stack at Microsoft is not well known. It started as part of the Avalon development effort which started itself with Longhorn (remember that name?).</p><p>However, using the <a href='http://referencesource.microsoft.com/'>Reference Source</a> website, we can find comments in the source code indicating that early work in the PresentationCore assembly started off early 2003. See for example the source code of the Brush type (<a href='http://referencesource.microsoft.com/#PresentationCore/src/Core/CSharp/System/Windows/Media/Brush.cs'>Brush.cs</a>) where the creation date is 04/28/2003...</p><p>You can also read this nice blog post by Chris Anderson about <a href='http://web.archive.org/web/20061019225317/http://blog.simplegeek.com/PermaLink.aspx/100aec62-3352-4c35-b471-f3f2fa5fac5a'>A brief history on XAML</a> (on web.archive.org).</p>",
 				"tag":"WPF",
 				"asset":
                 {
@@ -30,7 +32,7 @@
 			{
 				"startDate":"2006,11,21",
 				"headline":"WPF 3.0",
-				"text":"<p>The first official release of WPF comes with .Net 3.0. This new release of .Net runs on the same CLR as .Net 2.0, ships with Windows Vista (but runs on Windows XP too).</p><p>This release of .Net was previously known as WinFX but it was renamed to .Net 3.0 (you can read Somasegar's <a href='http://blogs.msdn.com/b/somasegar/archive/2006/06/09/624300.aspx'>blog post</a> about this). This version of WPF will be later on called WPF3 (even though there are not WPF1 or WPF2 versions).</p><p>XAML, databinding, layout, controls... WPF brings a whole new world to discover ! MVVM will soon become the most known pattern to leverage all those new features and it started back in 2005 by <a href='http://blogs.msdn.com/b/johngossman/archive/2005/10/08/478683.aspx'>a blog post</a> from John Gossman from the Expression Blend team...</p>",
+				"text":"<p>The first official release of WPF comes with .Net 3.0. This new release of .Net runs on the same CLR as .Net 2.0 and ships with Windows Vista (but runs on Windows XP too).</p><p>This release of .Net was previously known as WinFX but it was renamed to .Net 3.0 (you can read Somasegar's <a href='http://blogs.msdn.com/b/somasegar/archive/2006/06/09/624300.aspx'>blog post</a> about this). This version of WPF will be later on called WPF3 (even though there are not WPF1 or WPF2 versions).</p><p>XAML, databinding, layout, controls... WPF brings a whole new world to discover ! MVVM will soon become the most known pattern to leverage all those new features and it started back in 2005 with <a href='http://blogs.msdn.com/b/johngossman/archive/2005/10/08/478683.aspx'>a blog post</a> from John Gossman from the Expression Blend team...</p>",
 				"tag":"WPF",
 				"asset":
                 {
@@ -42,7 +44,7 @@
 			{
 				"startDate":"2007,11,1",
 				"headline":"WPF 3.5",
-				"text":"<p>This new release of WPF comes with .Net 3.5 that runs on the CLR 2.0. Most important changes are:<ul><li>performance (animations, cold startup time, data binding)</li><li>pixel shader support</li><li>DirectX interop</li><li>improved validation for data binding</li><li>new UIElement3D to enables interactive 2D content on 3D surfaces</li></ul></p><p>This new release of .Net also introduces .Net client profile, a much smaller (25MB) subset of the full framework.</p>",
+				"text":"<p>This new release of WPF comes with .Net 3.5, most important changes are:<ul><li>performance (animations, cold startup time, data binding)</li><li>pixel shader support</li><li>DirectX interop</li><li>improved validation for data binding</li><li>new UIElement3D to enables interactive 2D content on 3D surfaces</li></ul></p><p>This new release of .Net also introduces .Net client profile, a much smaller (25MB) subset of the full framework.</p>",
 				"tag":"WPF",
 				"asset":
                 {
@@ -54,7 +56,7 @@
 			{
 				"startDate":"2008,8,1",
 				"headline":"WPF 3.5 SP1",
-				"text":"<p>Weird naming choice right ? In this 'Service Pack' release, WPF gets:<ul><li>splashscren support</li><li>a new WebBrowser control</li></ul></p>",
+				"text":"<p>Weird naming choice right ? In this 'Service Pack' release, WPF gets:<ul><li>splashscren support</li><li>a new WebBrowser control</li><li>better performances</li></ul></p>",
 				"tag":"WPF",
 				"asset":
                 {
@@ -102,7 +104,7 @@
 			{
 				"startDate":"2008,10,14",
 				"headline":"Silverlight 2.0",
-				"text":"<p>This time, Silverlight is ready of take off :-) Read the official <a href='http://weblogs.asp.net/scottgu/archive/2008/10/14/silverlight-2-released.aspx'>announcement</a> by Scott Gutthrie:</p><p><em>Silverlight 2 is a cross-platform browser plugin that enables rich media experiences and .NET RIAs within the browser. Silverlight 2 is small in size (4.6MB) and takes only 4-10 seconds to install on a machine that doesn't already have it.  It does not require the .NET Framework to be installed on a computer to run. Developers can write Silverlight applications using any .NET language (including VB, C#, JavaScript, IronPython and IronRuby). Silverlight provides a rich set of features for development including:</p><p><ul><li>WPF UI Framework: rich UI framework that makes building rich Web applications much easier</li><li>Rich Controls: rich set of built-in controls that developers and designers can use to quickly build applications.</li><li>Rich Networking Support: rich networking support,  out of the box support for calling REST, WS*/SOAP, POX, RSS, and standard HTTP services.</li><li>Rich Base Class Library: rich .NET base class library of functionality (collections, IO, generics, threading, globalization, XML, local storage, etc).</li><li>Rich Media Support: built-in video codecs for playing high definition video, as well as for streaming it over the web.</li></ul></em></p>",
+				"text":"<p>This time, Silverlight is ready for take off :-) Read the official <a href='http://weblogs.asp.net/scottgu/archive/2008/10/14/silverlight-2-released.aspx'>announcement</a> by Scott Gutthrie:</p><p><em>Silverlight 2 is a cross-platform browser plugin that enables rich media experiences and .NET RIAs within the browser. Silverlight 2 is small in size (4.6MB) and takes only 4-10 seconds to install on a machine that doesn't already have it.  It does not require the .NET Framework to be installed on a computer to run. Developers can write Silverlight applications using any .NET language (including VB, C#, JavaScript, IronPython and IronRuby). Silverlight provides a rich set of features for development including:</p><p><ul><li>WPF UI Framework: rich UI framework that makes building rich Web applications much easier</li><li>Rich Controls: rich set of built-in controls that developers and designers can use to quickly build applications.</li><li>Rich Networking Support: rich networking support,  out of the box support for calling REST, WS*/SOAP, POX, RSS, and standard HTTP services.</li><li>Rich Base Class Library: rich .NET base class library of functionality (collections, IO, generics, threading, globalization, XML, local storage, etc).</li><li>Rich Media Support: built-in video codecs for playing high definition video, as well as for streaming it over the web.</li></ul></em></p>",
 				"tag":"Silverlight",
 				"asset":
                 {
@@ -138,7 +140,7 @@
 			{
 				"startDate":"2011,12,9",
 				"headline":"Silverlight 5.0",
-				"text":"<p>Official <a href='http://weblogs.asp.net/scottgu/archive/2010/12/02/announcing-silverlight-5.aspx'>announcement</a> by Scott Gutthrie:</p><p><em>Silverlight 5 adds significant new features and capabilities, and enables developers to create premium media experiences and deliver rich applications across browsers, desktops and devices.</em></p><p>Major changes: <ul><li>Supports GPU accelerated video decoding</li><li>Built-in 3D graphics support</li><li>Variable speed playback of media content with automatic audio pitch correction</li><li>Provides 64-bit browser support</li><li>Delivers improved text clarity</li><li>Developers can now debug data-binding expressions, set breakpoints on bindings.</li></p>",
+				"text":"<p>A lot of rumors around the future of Silverlight were poping up all around the web... Microsoft chooses to organize a virtual 1 day event for Silverlight future.</p><p>Official <a href='http://weblogs.asp.net/scottgu/archive/2010/12/02/announcing-silverlight-5.aspx'>announcement</a> by Scott Gutthrie:</p><p><em>Silverlight 5 adds significant new features and capabilities, and enables developers to create premium media experiences and deliver rich applications across browsers, desktops and devices.</em></p><p>Major changes: <ul><li>Supports GPU accelerated video decoding</li><li>Built-in 3D graphics support</li><li>Variable speed playback of media content with automatic audio pitch correction</li><li>Provides 64-bit browser support</li><li>Delivers improved text clarity</li><li>Developers can now debug data-binding expressions, set breakpoints on bindings.</li></p>",
 				"tag":"Silverlight",
 				"asset":
                 {
@@ -150,7 +152,7 @@
 			{
 				"startDate":"2012,8,1",
 				"headline":"Windows 8 XAML",
-				"text":"<p>Remember that famous architecture diagram ?</p><p>Windows 8 brings a whole new set of API with WinRT. WinRT contains an entirely new XAML stack this time implemented in native code. This makes possible writing C++ apps with a XAML UI. And even though the XAML stack has been entirely rewritten, it is very close to Silverlight from an API point of view...</p>",
+				"text":"<p>Remember that famous architecture diagram ?</p><p>Windows 8 brings a whole new set of API with WinRT. WinRT contains an entirely new XAML stack this time implemented in native code. This makes possible writing C++ apps with a XAML UI.</p><p>And even though the XAML stack has been entirely rewritten, it is very close to Silverlight from an API point of view...</p>",
 				"tag":"XAML",
 				"asset":
                 {
@@ -162,7 +164,7 @@
 			{
 				"startDate":"2013,8,27",
 				"headline":"Windows 8.1 XAML",
-				"text":"<p>This new release of Windows brings many changes to the XAML stack: new controls, better performance and new API. Missing controls to fit into the OS are not part of the SDK (AppBar, Flyout, Hub...).</p><p>The GridView controls received a particular attention to enable better performance with improved per-pixel UI virtualization (using new panels).</p><p>A very nice //BUILD/ 2013 <a href='http://channel9.msdn.com/Events/Build/2013/3-158'>video</a> goes into the details of the GridView optimizations.",
+				"text":"<p>This new release of Windows brings many changes to the XAML stack: new controls, better performance and new API. Missing controls to fit into the OS are now part of the SDK (AppBar, Flyout, Hub...).</p><p>The GridView controls received a particular attention to enable better performance with improved per-pixel UI virtualization (using new panels).</p><p>A very nice //BUILD/ 2013 <a href='http://channel9.msdn.com/Events/Build/2013/3-158'>video</a> goes into the details of the GridView optimizations.",
 				"tag":"XAML",
 				"asset":
                 {
@@ -174,7 +176,7 @@
 			{
 				"startDate":"2010,8,11",
 				"headline":"Silverlight for WP7",
-				"text":"<p>Windows Phone 7 exposes 2 kind of applications for developers: Silverlight and XNA.</p><p>It's still unclear how the code base was shared between the Silverlight 'desktop' and the Silverlight 'windows phone' stack but from a developer point of view, they were very close.</p><p>This version of Silverlight runs on top of Windows CE and .Net compact framework.</p>",
+				"text":"<p>Windows Phone 7 exposes 2 kind of applications for developers: Silverlight and XNA.</p><p>It's still unclear how the code base was shared between the Silverlight 'desktop' and the Silverlight 'windows phone' stacks but from a developer point of view, they were very close.</p><p>This version of Silverlight runs on top of Windows CE and .Net compact framework.</p>",
 				"tag":"Windows Phone Silverlight",
 				"asset":
                 {
@@ -186,7 +188,7 @@
 			{
 				"startDate":"2012,10,29",
 				"headline":"Silverlight for WP8",
-				"text":"<p>Windows Phone 8 brings many changes under the hood, while keeping 100% compatibility with existing apps. Windows CE and .Net compact are gone and a NT Kernel coming from the Windows 8 world powers the devices. Native compilation comes to boost performance with no impact for developers (MDIL).</p><p>The XAML stack is still running in managed code and powered by Silverlight.</p>",
+				"text":"<p>Windows Phone 8 brings many changes under the hood, while keeping 100% compatibility with existing apps. Windows CE and .Net Compact Framework are gone and a NT Kernel coming from the Windows 8 world powers the devices. Native compilation comes to boost performance with no impact for developers (MDIL).</p><p>The XAML stack is still running in managed code and powered by Silverlight.</p>",
 				"tag":"Windows Phone Silverlight",
 				"asset":
                 {
@@ -198,13 +200,19 @@
 			{
 				"startDate":"2014,4,14",
 				"headline":"Silverlight for WP8.1",
-				"text":"<p>The next version of Windows Phone contains a new version if Silverlight, called 'Silverlight 8.1'. This new release adds new API coming from the convergence between Windows 8 XAML apps and new Windows Phone XAML apps.</p><p>Choosing to port an existing app to either a Silvelight 8.1 or a XAML app is not an easy decision as specifities exist in both worlds making some Windows Phone app impossible to port to XAML apps (for example no reminder API support in Windows Phone XAML apps for now).</p><p>This <a href='http://msdn.microsoft.com/en-us/library/windowsphone/develop/dn642486(v=vs.105).aspx'>MSDN article</a> is a good starting point when considering a migration.</p>",
-				"tag":"Windows Phone Silverlight"
+				"text":"<p>The next version of Windows Phone contains a new version if Silverlight, called 'Silverlight 8.1'. This new release adds new API coming from the convergence between Windows 8 XAML apps and new Windows Phone XAML apps.</p><p>Choosing to port an existing app to either a Silvelight 8.1 or a XAML app is not an easy decision as specificities exist in both worlds making some Windows Phone app impossible to port to XAML apps (for example no reminder API support in Windows Phone XAML apps for now).</p><p>This <a href='http://msdn.microsoft.com/en-us/library/windowsphone/develop/dn642486(v=vs.105).aspx'>MSDN article</a> is a good starting point when considering a migration.</p><p>Even though this release of Windows Phone adds new API for Silverlight apps, it's now official that the future investment will be made on WinRT XAML stack and not on Silverlight XAML stack.</p>",
+				"tag":"Windows Phone Silverlight",
+				"asset":
+                {
+                    "media":"images/windows-phone-8-1.png",
+                    "credit":"",
+                    "caption":"Windows Phone 8.1"
+                }
 			},
 			{
 				"startDate":"2014,4,14",
 				"headline":"Universal Apps",
-				"text":"<p>With the convergence of the WinRT APIs between Windows 8.1 and Windows Phone 8.1, it's not possible to create <em>Universal Windows Apps</em></p><p>Unlike <em>Portable Class Library</em>, <em>Universal Apps</em> doesn't share binary but source code. This leverage the well known 'linked-file' feature of Visual Studio with a much better tooling experience. Enabling developers to write plateform specific code using #if statements.</p>",
+				"text":"<p>With the convergence of the WinRT APIs between Windows 8.1 and Windows Phone 8.1, it's not possible to create <em>Universal Windows Apps</em></p><p>Unlike <em>Portable Class Library</em>, <em>Universal Apps</em> doesn't share binaries but source code. This leverage the well known 'linked-file' feature of Visual Studio with a much better tooling experience. This also enables developers to write plateform specific code using #if statements.</p>",
 				"tag":"XAML",
 				"asset":
                 {

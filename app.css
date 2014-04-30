@@ -12,15 +12,6 @@ html, body {
 	z-index: 1000
 }
 
-.top-header {
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-	z-index: 1000;
-	top: 0;
-}
-
 /* not proud of the following :p */
 .vco-storyjs ul {
 	list-style: initial !important;
